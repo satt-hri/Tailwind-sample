@@ -24,7 +24,7 @@
             <li class="py-6 text-4xl">Work</li>
             <li class="py-6 text-4xl">Contact</li>
         </ul>
-        <div class="flex fixed flex-col top-[35%] left-0">
+        <div class="max-sm:hidden flex fixed flex-col top-[35%] left-0 ">
             <ul class="bg-blue-600 text-gray-300">
                 <li class="ml-[-80px] hover:ml-[-10px] duration-300">
                     <a class="w-[100px] h-[60px] flex justify-between items-center ">
