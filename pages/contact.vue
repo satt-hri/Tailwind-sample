@@ -1,5 +1,5 @@
 <template>
-    <div name='contact' class='w-full h-screen pt-20 bg-[#0a192f] flex justify-center items-center p-4'>
+    <div name='contact' class='w-full ms:h-screen pt-20 bg-[#0a192f] flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
             class='flex flex-col max-w-[600px] w-full'>
             <div class='pb-8'>
