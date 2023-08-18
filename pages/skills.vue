@@ -17,9 +17,9 @@
 
 <script setup lang="ts">
 type Item = { text: string, name: string }
-const generateImgPath = (fileName: string): string => {
-    return new URL(`@/images/${fileName}`, import.meta.url).href
-}
+// const generateImgPath = (fileName: string): string => {
+//     return new URL(`@/images/${fileName}`, import.meta.url).href
+// }
 
 const list: Array<Item> = [
     { text: "HTML", name: "html.png" },
