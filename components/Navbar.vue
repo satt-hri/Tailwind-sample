@@ -1,5 +1,5 @@
 <template>
-    <div class="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f5f5f5cc] text-black">
+    <div class="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
         <div class="shrink-0 flex items-center font-medium">
             <img src="../assets/images/logo1.png" style="width: ;" class=" w-[80px]"> <span>Tailwind勉強のサンプルサイト</span>
         </div>
@@ -16,7 +16,7 @@
             <Icon v-else name="uiw:close" class="h-9 w-9" />
             <!-- <img src="~/assets/image/menu.svg"> -->
         </div>
-        <ul class=" absolute top-0 left-0 w-full h-screen bg-[#f5f5f5cc] flex flex-col justify-center items-center"
+        <ul class=" absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
             :class="nav ? 'flex' : 'hidden'">
             <NuxtLink to="/"><li class="py-6 text-4xl">Home</li></NuxtLink>
             <NuxtLink to="./about"><li class="py-6 text-4xl">About</li></NuxtLink>
@@ -42,6 +42,13 @@ const nav = ref(false)
 const handleClick = () => {
     nav.value = !nav.value
 }
+const router = useRouter();
+const route = useRoute();
+watchEffect(()=>{
+    route.name
+    //alert(route.name)
+    nav.value=false
+})
 </script>
 
 <style lang="scss" scoped></style>
