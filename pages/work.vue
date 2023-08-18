@@ -69,7 +69,20 @@ const data=[
         github:"",
         live:"",
     },
-
+    {
+        id:5,
+        name:"React JS Application",
+        image:WorkIm,
+        github:"",
+        live:"",
+    },
+    {
+        id:6,
+        name:"React JS Application",
+        image:RealEst,
+        github:"",
+        live:"",
+    },
 
 ]
 </script>
