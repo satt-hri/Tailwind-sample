@@ -1,9 +1,9 @@
 <template>
     <div class=" w-full h-screen pt-20 bg-[#0a192f] text-gray-300">
         <div class="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-3/5">
-            <p class="text-pink-600">こんにちは！我叫</p>
-            <h1 class="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">松戸老丁</h1>
-            <h2 class="text-4xl sm:text-7xl font-bold text-[#8892b0]">这里是楽しいバトミントン俱楽部</h2>
+            <p class="text-pink-600">Hi, my name is</p>
+            <h1 class="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">DaoCao</h1>
+            <h2 class="text-4xl sm:text-7xl font-bold text-[#8892b0]">I'm a Full Stack Developer.</h2>
             <p class="text-[#8892b0] py-4 max-w-[700px]">
                 I’m a full-stack developer specializing in building (and occasionally
           designing) exceptional digital experiences. Currently, I’m focused on

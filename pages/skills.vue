@@ -1,5 +1,5 @@
 <template>
-    <div name="skills" class="w-full h-screen bg-[#0a192f]  text-gray-300">
+    <div name="skills" class="w-full h-screen bg-[#0a192f] pt-20 text-gray-300">
         <div class="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
             <div>
                 <p class='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
@@ -10,12 +10,8 @@
                     <img class="w-20 mx-auto" :src="`/images/${item.name}`" :alt="item.name" />
                     <p class="my-4">{{ item.text }}</p>
                 </div>
-
             </div>
         </div>
-
-
-
     </div>
 </template>
 
@@ -34,11 +30,10 @@ const list: Array<Item> = [
     { text: "Nuxt", name: "nuxt.svg" },
     { text: "React", name: "react.png" },
     { text: "NextJS", name: "nextjs.svg" },
-    { text: "GitHub", name: "css.png" },
-    { text: "Node", name: "css.png" },
+    { text: "GitHub", name: "github.png" },
+    { text: "Node", name: "node.png" },
     { text: "Mongo", name: "mongo.png" },
     { text: "TAILWIND", name: "tailwind.png" },
-    { text: "FIREBASE", name: "firebase.png" },
 ]
 
 </script>

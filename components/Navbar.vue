@@ -1,7 +1,7 @@
 <template>
     <div class="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f5f5f5cc] text-black">
         <div class="shrink-0 flex items-center font-medium">
-            <img src="../assets/images/logo1.png" class=" w-[80px]"> <span>楽しいバトミントン俱楽部</span>
+            <img src="../assets/images/logo1.png" style="width: ;" class=" w-[80px]"> <span>Tailwind勉強のサンプルサイト</span>
         </div>
         <ul class="hidden sm:flex">
             <NuxtLink to="/"><li>Home</li></NuxtLink>
@@ -20,9 +20,9 @@
             :class="nav ? 'flex' : 'hidden'">
             <NuxtLink to="/"><li class="py-6 text-4xl">Home</li></NuxtLink>
             <NuxtLink to="./about"><li class="py-6 text-4xl">About</li></NuxtLink>
-            <NuxtLink to="./about"><li class="py-6 text-4xl">Skills</li></NuxtLink>
-            <NuxtLink to="./about"><li class="py-6 text-4xl">Work</li></NuxtLink>
-            <NuxtLink to="./about"><li class="py-6 text-4xl">Contact</li></NuxtLink>
+            <NuxtLink to="./skills"><li class="py-6 text-4xl">Skills</li></NuxtLink>
+            <NuxtLink to="./work"><li class="py-6 text-4xl">Work</li></NuxtLink>
+            <NuxtLink to="./contact"><li class="py-6 text-4xl">Contact</li></NuxtLink>
         </ul>
         <div class="max-sm:hidden flex fixed flex-col top-[35%] left-0 ">
             <ul class="bg-blue-600 text-gray-300">
@@ -32,18 +32,6 @@
                         <Icon name="uiw:weixin" class="h-7 w-7" />
                     </a>
                 </li>
-                <!-- <li class="w-[160px]">
-                    <a>
-                        Facebook
-                        <Icon name="uiw:facebook" class="h-8 w-8" />
-                    </a>
-                </li>
-                <li class="w-[160px]">
-                    <a>
-                        Twitter
-                        <Icon name="uiw:twitter" class="h-8 w-8" />
-                    </a>
-                </li> -->
             </ul>
         </div>
     </div>
